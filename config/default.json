@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://polothil:almonard@devconnector.xvb7h.mongodb.net/<dbname>?retryWrites=true&w=majority",
+  "jwtSecret": "mysecrettoken"
+}
