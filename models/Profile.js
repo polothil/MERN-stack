@@ -47,14 +47,13 @@ const ProfileSchema = new mongoose.Schema({
       },
       to: {
         type: Date,
-        required: true,
       },
       current: {
         type: Boolean,
-        required: false,
+        default: false,
       },
       description: {
-        type: Date,
+        type: String,
       },
     },
   ],
@@ -78,14 +77,13 @@ const ProfileSchema = new mongoose.Schema({
       },
       to: {
         type: Date,
-        required: true,
       },
       current: {
         type: Boolean,
         required: false,
       },
       description: {
-        type: Date,
+        type: String,
       },
     },
   ],
