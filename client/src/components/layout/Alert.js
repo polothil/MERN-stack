@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 
+// Destructuring props.alerts to {alerts}
 const Alert = ({ alerts }) =>
   alerts !== null &&
   alerts.length > 0 &&
@@ -13,6 +14,7 @@ const Alert = ({ alerts }) =>
 
 Alert.propTypes = {
   alerts: PropTypes.array.isRequired,
+  // Check alert reducer to know what type it is
 };
 
 const mapStateToProps = (state) => ({
